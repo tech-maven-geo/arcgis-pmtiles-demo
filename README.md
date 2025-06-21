@@ -12,3 +12,26 @@ please also add support for cloud native optimized format flatgeobuf vector GIS 
 Please also support Cloud optimized geotiff COG url to add to the map https://developers.arcgis.com/javascript/latest/sample-code/layers-imagerytilelayer-cog/   https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-ImageryTileLayer.html
 
 please create a search and filter widget and attribute table grid that works with OGC API Features with CQL Common Query Language Filtering. (GeoNode/GeoServer private secure mapping services so have a settings to enable URL and login information and keep that as secure and protected as possible)  Be able to do spatial filter to map view (bbox) or map center point lat long and buffer distance and return nearest records limited to 20 ordered by distance.  Be able to show the results on the map as a geojson layer. be able to select records/row on atttribute table and zoom to that record as well as configure popups from that data.  Please also create a search widget that works with OGC API Records and STAC API's and enables text searching, location filtering and by type and other parameters and be able to show query results on the map and have popups configured.
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
